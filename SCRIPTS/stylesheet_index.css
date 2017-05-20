@@ -26,7 +26,9 @@ header{
 header .header-left{
 	height: 80px;
 	margin: auto 20px;
+	font-family: "Helvetica";
 }
+
 header h1{
 	float: left;
 	color: white;
