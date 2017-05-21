@@ -5,41 +5,52 @@
 
 ------------------------------*/
 
-#site-box{
-	width: 750px;
-}
+@charset "UTF-8";
 
+*{
+	font-family: Helvetica;
+}
 
 /*
 	header style
 */
+
 header{
 	width: 100%;
-	height: 120px;
-	background-color: rgba(50, 50, 50, 0.5);
-	position: fixed;
-	top: 0px;
-
-	z-index: 10;
+	/*background-color: rgba(50, 50, 50, 0.5);*/
+	margin-bottom: 20px;
 }
 
 header .header-left{
 	height: 80px;
 	margin: auto 20px;
+	/*background-color: gray;*/
+	float: left;
 }
 header h1{
+	font-weight: 100;
 	float: left;
-	color: white;
 }
 
 header .header-right{
+	height: 80px;
 	float: right;
+	/*background-color: blue;*/
 }
 
 header .menu{
 	text-decoration: none;
-	font-size: 18px;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
 	font-color: white;
+	float: left;
+	margin: 30px 10px 30px 10px;
+}
+
+header .menu:hover{
+	opacity: 0.5;
+	cursor: pointer;
 }
 
 
@@ -48,9 +59,14 @@ header .menu{
 */
 .main-wrapper{
 	width: 100%;
-	height: 100%;
+	height:500px;
+	clear: both;
+	background-color: gray;
+}
+.main-wrapper h1{
+	color: red;
+	margin-top: 200px;
 	text-align: center;
-	margin: 500px;
 }
 
 /*
