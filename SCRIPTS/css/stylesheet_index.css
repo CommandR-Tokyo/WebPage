@@ -66,7 +66,8 @@ header .menu:hover{
 	/*background-color: gray;*/
 	padding-left: 60px;
 	padding-right: 60px;
-	border: solid 1px rgb(10, 10 , 10);
+	border: solid 1.5px rgb(10, 10 , 10);
+	border-radius: 40px;
 }
 .main-wrapper h1{
 	color: red;
